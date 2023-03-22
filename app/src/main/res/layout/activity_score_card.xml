@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <include
+        android:id="@+id/toolbar_container"
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/adsView"
+        android:layout_below="@id/toolbar_container"
+        android:background="@color/page_bg">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusableInTouchMode="true">
+
+            <RelativeLayout
+                android:id="@+id/lyt_graph"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/hint_color">
+
+                <com.github.mikephil.charting.charts.PieChart
+                    android:id="@+id/piechart"
+                    android:layout_width="@dimen/margin_180dp"
+                    android:layout_height="@dimen/margin_180dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginStart="@dimen/margin_8dp"
+                    android:layout_marginTop="@dimen/margin_8dp"
+                    android:layout_marginEnd="@dimen/margin_8dp"
+                    android:layout_marginBottom="@dimen/margin_8dp" />
+
+                <View
+                    android:id="@+id/view_0"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.7dp"
+                    android:layout_below="@+id/piechart"
+                    android:background="@color/toolbar_boarder" />
+
+                <LinearLayout
+                    android:id="@+id/score_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/view_0"
+                    android:background="@color/dark_blue"
+                    android:baselineAligned="false"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/margin_8dp"
+                    android:weightSum="1">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.33"
+                        android:gravity="center">
+
+                        <TextView
+                            android:id="@+id/score_prompt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:text="@string/score"
+                            android:textColor="@color/white" />
+
+                        <TextView
+                            android:id="@+id/txt_score"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/score_prompt"
+                            android:layout_centerHorizontal="true"
+                            android:textColor="@color/white"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            tools:text="70 / 100" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.33"
+                        android:gravity="center">
+
+                        <TextView
+                            android:id="@+id/wrong_prompt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:gravity="center"
+                            android:text="@string/wrong"
+                            android:textColor="@color/white" />
+
+                        <TextView
+                            android:id="@+id/txt_wrong"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/wrong_prompt"
+                            android:layout_centerHorizontal="true"
+                            android:textColor="@color/white"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            tools:text="5" />
+
+                    </RelativeLayout>
+
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.33"
+                        android:gravity="center">
+
+                        <TextView
+                            android:id="@+id/skip_prompt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:text="@string/skipped"
+                            android:textColor="@color/white" />
+
+                        <TextView
+                            android:id="@+id/txt_skip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/skip_prompt"
+                            android:layout_centerHorizontal="true"
+                            android:textColor="@color/white"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            tools:text="3" />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/view_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.7dp"
+                    android:layout_below="@id/score_container"
+                    android:background="@color/toolbar_boarder" />
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/greeting_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lyt_graph"
+                android:layout_marginLeft="@dimen/margin_15dp"
+                android:layout_marginRight="@dimen/margin_15dp"
+                android:layout_marginTop="@dimen/margin_15dp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                tools:text="@string/greeting_text1" />
+
+
+            <com.codestudioapps.learing.app.view.PhenomenaTextView
+                android:id="@+id/share_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/greeting_text"
+                android:layout_marginTop="@dimen/margin_20dp"
+                android:gravity="center"
+                android:text="@string/share_prompt"
+                android:textSize="15sp" />
+
+            <LinearLayout
+                android:id="@+id/prompt_container"
+                style="?android:attr/buttonBarStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/share_text"
+                android:layout_margin="@dimen/margin_15dp"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <Button
+                    android:id="@+id/btn_share"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/margin_6dp"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/rectangle_blue"
+                    android:text="@string/share_now"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/btn_play_again"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_6dp"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/rectangle_red"
+                    android:text="@string/play_again"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/prompt_container"
+                android:layout_margin="@dimen/margin_15dp"
+                android:background="@drawable/rectangle_white"
+                android:nestedScrollingEnabled="false"
+                tools:targetApi="lollipop" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <include
+        android:id="@+id/adsView"
+        layout="@layout/content_banner_ad" />
+
+
+</RelativeLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/toolbarTop"
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/adsView"
+        android:layout_below="@id/toolbarTop">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:padding="@dimen/margin_15dp">
+
+            <ImageView
+                android:id="@+id/quiz_light"
+                android:layout_width="@dimen/margin_100dp"
+                android:layout_height="@dimen/margin_100dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="@dimen/margin_10dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/app_name"
+                android:padding="@dimen/margin_10dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/ic_quiz_bulb" />
+
+            <com.codestudioapps.learing.app.view.PhenomenaTextView
+                android:id="@+id/first_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/quiz_light"
+                android:layout_marginBottom="@dimen/margin_10dp"
+                android:gravity="center"
+                android:text="@string/welcome_text"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <com.codestudioapps.learing.app.view.PhenomenaTextView
+                android:id="@+id/third_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/first_text"
+                android:layout_marginBottom="@dimen/margin_15dp"
+                android:gravity="center"
+                android:text="@string/ready_prompt"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                style="?android:attr/buttonBarStyle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/third_text"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <Button
+                    android:id="@+id/btn_yes"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/margin_6dp"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/rectangle_blue"
+                    android:text="@string/yes"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/btn_no"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_6dp"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/rectangle_red"
+                    android:text="@string/no"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <include
+        android:id="@+id/adsView"
+        layout="@layout/content_banner_ad" />
+
+</RelativeLayout>

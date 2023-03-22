@@ -1,0 +1,280 @@
+{
+  "project_info": {
+    "project_number": "223513122177",
+    "firebase_url": "https://nabeel-e12a1.firebaseio.com",
+    "project_id": "nabeel-e12a1",
+    "storage_bucket": "nabeel-e12a1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:223513122177:android:60e6883734766f85df4480",
+        "android_client_info": {
+          "package_name": "com.amltranslator.mmmm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "223513122177-l87ttg2h9j41oq6i44pehp3rd2bq2jbb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBE846MXnyFXSdyQ8Vin42glVULGI5Gfww"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "223513122177-l87ttg2h9j41oq6i44pehp3rd2bq2jbb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:223513122177:android:41e86419475ddd6fdf4480",
+        "android_client_info": {
+          "package_name": "com.camscanner.pdfscanner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "223513122177-l87ttg2h9j41oq6i44pehp3rd2bq2jbb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBE846MXnyFXSdyQ8Vin42glVULGI5Gfww"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "223513122177-l87ttg2h9j41oq6i44pehp3rd2bq2jbb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:223513122177:android:e78c2832cd518ae6df4480",
+        "android_client_info": {
+          "package_name": "com.cat.caty"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "223513122177-8b9m1rkrn3gsfmrrdo62bge7l7tam60k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cat.caty",
+            "certificate_hash": "40a754685c33cbc1ac6352705ca3762f783980f4"
+          }
+        },
+        {
+          "client_id": "223513122177-l87ttg2h9j41oq6i44pehp3rd2bq2jbb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBE846MXnyFXSdyQ8Vin42glVULGI5Gfww"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "223513122177-l87ttg2h9j41oq6i44pehp3rd2bq2jbb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:223513122177:android:f234c6814bf6bc85df4480",
+        "android_client_info": {
+          "package_name": "com.codestudio.youtubechannel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "223513122177-l87ttg2h9j41oq6i44pehp3rd2bq2jbb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBE846MXnyFXSdyQ8Vin42glVULGI5Gfww"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "223513122177-l87ttg2h9j41oq6i44pehp3rd2bq2jbb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:223513122177:android:0cc7e6dac72eaba4df4480",
+        "android_client_info": {
+          "package_name": "com.codestudioapps.learing.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "223513122177-l87ttg2h9j41oq6i44pehp3rd2bq2jbb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBE846MXnyFXSdyQ8Vin42glVULGI5Gfww"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "223513122177-l87ttg2h9j41oq6i44pehp3rd2bq2jbb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:223513122177:android:f0cfb7f36b131de7df4480",
+        "android_client_info": {
+          "package_name": "com.codestudioapps.websitetoapps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "223513122177-l87ttg2h9j41oq6i44pehp3rd2bq2jbb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBE846MXnyFXSdyQ8Vin42glVULGI5Gfww"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "223513122177-l87ttg2h9j41oq6i44pehp3rd2bq2jbb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:223513122177:android:7b9905ffee917ad0df4480",
+        "android_client_info": {
+          "package_name": "com.nepalikoreantestnig.mmmm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "223513122177-l87ttg2h9j41oq6i44pehp3rd2bq2jbb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBE846MXnyFXSdyQ8Vin42glVULGI5Gfww"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "223513122177-l87ttg2h9j41oq6i44pehp3rd2bq2jbb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:223513122177:android:24b56e24ff0b921fdf4480",
+        "android_client_info": {
+          "package_name": "com.signal.steakerapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "223513122177-l87ttg2h9j41oq6i44pehp3rd2bq2jbb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBE846MXnyFXSdyQ8Vin42glVULGI5Gfww"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "223513122177-l87ttg2h9j41oq6i44pehp3rd2bq2jbb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:223513122177:android:75cc754d0cf028e2df4480",
+        "android_client_info": {
+          "package_name": "com.youtubechannel.codestudioapps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "223513122177-l87ttg2h9j41oq6i44pehp3rd2bq2jbb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBE846MXnyFXSdyQ8Vin42glVULGI5Gfww"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "223513122177-l87ttg2h9j41oq6i44pehp3rd2bq2jbb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

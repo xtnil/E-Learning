@@ -1,0 +1,264 @@
+{
+  "questionnaires": [
+    {
+      "question": "Which one of the following is correct?",
+      "answers": [
+        "a) The Nile is longest river in Africa",
+        "b) The Nile is the longest river in Africa",
+        "c) Nile is longest river in the Africa",
+        "d) Nile is longest river in Africa"
+      ],
+      "correct_answer": 1
+    },
+    {
+      "question": "Which one of the following is correct?",
+      "answers": [
+        "a) Dhaka is biggest city in the Bangladesh",
+        "b) Dhaka is the biggest city in Bangladesh",
+        "c) The Dhaka is biggest city in Bangladesh",
+        "d) Dhaka is the biggest city in Bangladesh"
+      ],
+      "correct_answer": 2
+    },
+    {
+      "question": "&#39;The French&#39; refers to -",
+      "answers": [
+        "a) The French language",
+        "b) The French people",
+        "c) The French manners",
+        "d) The French society"
+      ],
+      "correct_answer": 1
+    },
+    {
+      "question": "Which one of the following is correct?",
+      "answers": [
+        "a) The lion is a ferocious animal",
+        "b) Lion is a ferocious animal",
+        "c) A lion is ferocious animal",
+        "d) The lion is ferocious animal"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "Use appropriate article: I saw --- one eyed man.",
+      "answers": [
+        "a) a",
+        "b) an",
+        "c) the",
+        "d) no article"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "Choose the correct one -",
+      "answers": [
+        "a) He speaks the English like the English",
+        "b) He speaks English like English",
+        "c) He speaks the English like English",
+        "d) He speaks English like the English"
+      ],
+      "correct_answer": 3
+    },
+    {
+      "question": "Use appropriate article: He is -- MBBS.",
+      "answers": [
+        "a) a",
+        "b) an",
+        "c) the",
+        "d) no article"
+      ],
+      "correct_answer": 1
+    },
+    {
+      "question": "Dhaka is -- biggest city in Bangladesh.",
+      "answers": [
+        "a) a",
+        "b) an",
+        "c) the",
+        "d) no article"
+      ],
+      "correct_answer": 2
+    },
+    {
+      "question": "Which one of the following is correct?",
+      "answers": [
+        "a) A dog is faithful animal",
+        "b) The dog is a faithful animal",
+        "c) The dog is faithful animal",
+        "d) Dog is a faithful animal"
+      ],
+      "correct_answer": 1
+    },
+    {
+      "question": "A and An are -",
+      "answers": [
+        "a) Definite Article",
+        "b) Indefinite Article",
+        "c) Both",
+        "d) None"
+      ],
+      "correct_answer": 1
+    },
+    {
+      "question": "He will leave for U.S.A",
+      "answers": [
+        "a) a",
+        "b) an",
+        "c) the",
+        "d) no article"
+      ],
+      "correct_answer": 2
+    },
+    {
+      "question": "He is -- honest man.",
+      "answers": [
+        "a) a",
+        "b) an",
+        "c) the",
+        "d) no article"
+      ],
+      "correct_answer": 1
+    },
+    {
+      "question": "I paid -- one taka note for -- old paper.",
+      "answers": [
+        "a) a, no article",
+        "b) a, the",
+        "c) an, the",
+        "d) none of these"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "<p>Superlative form of the word &#39;difficult&#39; is -</p>",
+      "answers": [
+        "a) difficultest",
+        "b) very difficult",
+        "c) most difficult",
+        "d) very difficultest"
+      ],
+      "correct_answer": 2
+    },
+    {
+      "question": "Rahim is -- in the class.",
+      "answers": [
+        "a) tall",
+        "b) taller",
+        "c) tallest",
+        "d) the tallest"
+      ],
+      "correct_answer": 3
+    },
+    {
+      "question": "Which one is the comparative form of good?",
+      "answers": [
+        "a) very good",
+        "b) best",
+        "c) better",
+        "d) most good"
+      ],
+      "correct_answer": 2
+    },
+    {
+      "question": "Which one is the comparative form of bad?",
+      "answers": [
+        "a) worse",
+        "b) worst",
+        "c) very bad",
+        "d) most bad"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "I prepare my lesson -- than you.",
+      "answers": [
+        "a) most carefully",
+        "b) carefully",
+        "c) so carefully",
+        "d) more carefully"
+      ],
+      "correct_answer": 3
+    },
+    {
+      "question": "<p>&#39;Worst&#39; is the superlative form of --</p>",
+      "answers": [
+        "a) well",
+        "b) bad",
+        "c) wrong",
+        "d) none of them"
+      ],
+      "correct_answer": 1
+    },
+    {
+      "question": "<p>Which one is the superlative form of &#39;Little&#39; -</p>",
+      "answers": [
+        "a) More little",
+        "b) Lest",
+        "c) Less",
+        "d) Least"
+      ],
+      "correct_answer": 3
+    },
+    {
+      "question": "Choose the correct sentence -",
+      "answers": [
+        "a) More you read more you learn",
+        "b) The more you read more you learn",
+        "c) More you read the more you learn",
+        "d) The more you read the more you learn"
+      ],
+      "correct_answer": 3
+    },
+    {
+      "question": "Which one of the following is correct?",
+      "answers": [
+        "a) He is as good as mine.",
+        "b) He is as good as myself.",
+        "c) He is as good as mine.",
+        "d) He is as good as I."
+      ],
+      "correct_answer": 3
+    },
+    {
+      "question": "<p>Let&#39;s have a cup of tea. --?</p>",
+      "answers": [
+        "a) have we?",
+        "b) shall we?",
+        "<p>c) haven&#39;t we?</p>",
+        "<p>d) shalln&#39;t we?</p>"
+      ],
+      "correct_answer": 1
+    },
+    {
+      "question": "As soon as he became rich he cast -- his old friends.",
+      "answers": [
+        "a) off",
+        "b) aside",
+        "c) down",
+        "d) along"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "Alexander Fleming -- penicilin.",
+      "answers": [
+        "a) inventing",
+        "b) made",
+        "c) discovered",
+        "d) invented"
+      ],
+      "correct_answer": 3
+    },
+    {
+      "question": "It -- last night.",
+      "answers": [
+        "a) rain",
+        "b) rains",
+        "c) raining",
+        "d) rained"
+      ],
+      "correct_answer": 3
+    }
+  ]
+}

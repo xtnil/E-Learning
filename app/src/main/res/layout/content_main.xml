@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/adsView"
+        android:scrollbars="none"
+        tools:showIn="@layout/activity_main">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:showIn="@layout/activity_main">
+
+            <!-- Menus Recycler -->
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_14dp"
+                android:nestedScrollingEnabled="false"
+                tools:targetApi="lollipop" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_14dp"
+                android:layout_below="@id/rvContent" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <include
+        android:id="@+id/adsView"
+        layout="@layout/content_banner_ad" />
+
+</RelativeLayout>
